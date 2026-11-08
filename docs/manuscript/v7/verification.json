@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": {
+    "zip_crc": true,
+    "zip_matches_source": true,
+    "extracted_source_compilation": "Tectonic 0.17.0",
+    "pages": 13,
+    "all_page_text_and_boxes_match": true,
+    "all_page_rendered_pixels_match_at_72dpi": true,
+    "manuscript_tex_bibliography_figures_preserved": true,
+    "protocol_included": true,
+    "figure_count": 5,
+    "undefined_references_or_citations": false,
+    "overfull_boxes": false
+  },
+  "warnings": "Existing underfull boxes and imported PDF 1.7/output 1.5 warning remain.",
+  "scientific_runs_performed": false,
+  "online_overleaf_checked": false,
+  "cmt_submitted": false
+}

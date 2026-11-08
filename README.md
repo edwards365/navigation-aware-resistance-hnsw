@@ -1,4 +1,4 @@
-> Current fixed manuscript and supplementary protocol: [artifact-manuscript-v5](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v5). Earlier scientific evidence and release snapshots remain available.
+> Current manuscript: [artifact-manuscript-v7](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7) — three-author V7 PDF, Overleaf source and supplementary protocol. Older fixed evidence remains available.
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 An experimental and analytical study of historical search-budget reuse across ANN indexes.
 
 [![Artifact checks](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/actions/workflows/artifact.yml/badge.svg?branch=main)](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/actions/workflows/artifact.yml)
-[![Current manuscript release](https://img.shields.io/badge/release-artifact--manuscript--v4-087F99)](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4)
+[![Current manuscript release](https://img.shields.io/badge/release-artifact--manuscript--v7-087F99)](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7)
 [![MIT license](https://img.shields.io/badge/license-MIT-64748B)](LICENSE)
 
 [Overview](#research-overview) · [Quick start](#quick-start) · [Artifact](artifact/README.md) · [Runbook](artifact/RUNBOOK.md) · [中文](README.zh-CN.md)
@@ -22,7 +22,7 @@ An experimental and analytical study of historical search-budget reuse across AN
 
 [![Research overview: information limits, quality recovery, and conditional value](docs/assets/research-overview.png)](docs/assets/research-overview.png)
 
-*Three distinct questions, not three automatic guarantees. Click the figure to enlarge; see the [figure guide](docs/OVERVIEW.md) for its scope and notation.*
+*V7 Figure 1: three complementary evaluation perspectives. Click the figure to enlarge; see the [figure guide](docs/OVERVIEW.md) for its scope and notation.*
 
 | Research question | What the study examines | Explore the evidence |
 |---|---|---|
@@ -36,7 +36,7 @@ The study includes 100K and roughly million-vector panels. These panels differ i
 
 ### Fixed manuscript and P0–P12 evidence
 
-The current [artifact-manuscript-v4 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4) supplies the reorganized manuscript, Overleaf source, supplementary protocol, and approved editable overview. Start at the [manuscript-to-evidence entry](docs/manuscript/EVIDENCE.md). This is a manuscript-only binding: it uses the unchanged P0–P12 releases below and adds no experimental results. Asset hashes and packaging checks accompany the release.
+The current [V7 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7) supplies the three-author manuscript, Overleaf source with five figure PDFs, supplementary protocol, reproduction guide, and file hashes. Start at the [manuscript-to-evidence entry](docs/manuscript/EVIDENCE.md). V7 updates manuscript presentation and authorship; the experimental evidence retains its original fixed releases. Current editable figure sources are not included; older PPTX packages remain historical.
 
 The fixed [artifact-deepening-v3 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-deepening-v3) supplies the SIFT1M tie-sensitivity evidence and its October 12 manuscript snapshot. See the [P12 runbook](artifact/p12/README.md) and [unified P0–P12 evidence map](artifact/p12/EVIDENCE.md). It retains the fixed v2 below as its P0–P11 predecessor.
 
@@ -88,8 +88,8 @@ The [narrative runbook](artifact/narrative/README.md) adds 96 original grid CSVs
 | Selected result tables, paired intervals, and cost records | Available in [`artifact/`](artifact/README.md) |
 | Saved-response archive and portable nine-table reconstruction | Available in the [release and runbook](artifact/RUNBOOK.md) |
 | Conceptual overview | Available above, in the approved manuscript visual style |
-| Current TeX, PDF, supplementary protocol and editable overview | [artifact-manuscript-v4](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4), with declared author information and all six figure PDFs in the source ZIP |
-| Historical six-figure editable package | [artifact-delivery-v1](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-delivery-v1); use v4 for the updated Figure 1, and the earlier package for unchanged Figures 2–6 |
+| Current V7 TeX, PDF and supplementary protocol | [artifact-manuscript-v7](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7); five figure PDFs, current AI disclosure and three-author metadata |
+| Historical six-figure editable package | [artifact-delivery-v1](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-delivery-v1); historical sources do not reproduce revised V7 figures |
 | Numerical-figure saved-record statistics, including Figure 2/4 intervals | Supplied by the paper supplement |
 | Narrative-panel reconstruction | Runnable saved-record routes for the listed panels; input layers remain explicit |
 | New original-protocol execution entries | [Ten-family execution map](artifact/original_execution/EXECUTION_MAP.md), pinned source/dependencies, phase-separated producers and new receipts; synthetic/native CI is not a full-data rerun |

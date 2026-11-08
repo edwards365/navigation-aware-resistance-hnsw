@@ -4,7 +4,7 @@
 
 [![Information limits, quality recovery, and conditional value](assets/research-overview.png)](assets/research-overview.png)
 
-Figure 1 appears at the top of page 3, alongside Section III's framework description; the introduction first points readers to it. The lower panels are three evaluation perspectives, not successive execution stages. The graphic is the approved manuscript figure, reused without redrawing.
+Figure 1 appears at the page 4, alongside Section III's framework description; the introduction first points readers to it. The lower panels are three evaluation perspectives, not successive execution stages. The graphic is the approved manuscript figure, reused without redrawing.
 
 ## Same task, rebuilt index
 
@@ -30,6 +30,6 @@ Answer reuse is a relevant alternative only when exact answers have been obtaine
 
 ## Editable source and attribution
 
-The [v4 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4) supplies the unchanged approved PPTX, PDF, and PNG. Small Lucide icons retain their ISC attribution in `LUCIDE_LICENSE`; project-specific arrangements remain covered by the repository license. The release includes figure provenance and the full manuscript-to-evidence entry.
+The [V7 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7) supplies the current Figure 1 PDF inside the Overleaf ZIP. The homepage preview is rendered directly from that PDF without redrawing. The editable draw.io file is not included. Older PPTX files retain their historical release identity. Lucide icons retain their ISC attribution in the release's `LUCIDE_LICENSE` and `figure_asset_licenses.md`.
 
 The [evidence map](manuscript/EVIDENCE.md) links the figure's questions to available numerical materials.

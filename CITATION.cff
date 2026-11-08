@@ -5,8 +5,12 @@ type: software
 authors:
   - family-names: Wang
     given-names: Lekang
+  - family-names: Ren
+    given-names: Pinze
+  - family-names: Chen
+    given-names: Zhen
 repository-code: https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile
 license: MIT
-version: artifact-manuscript-v4
-date-released: 2026-10-15
-url: https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4
+version: artifact-manuscript-v7
+date-released: 2026-11-08
+url: https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7

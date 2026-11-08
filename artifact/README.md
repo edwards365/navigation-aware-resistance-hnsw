@@ -1,3 +1,5 @@
+> Current manuscript: [V7 PDF, Overleaf source and protocol](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7). Fixed experimental evidence below retains its original versions; see the [V7 evidence guide](../docs/manuscript/EVIDENCE.md).
+
 # Artifact: cross-index search budget reuse
 
 [Project home](../README.md) · [Runbook](RUNBOOK.md) · [Evidence map](EVIDENCE.md) · [Release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-response-v1)

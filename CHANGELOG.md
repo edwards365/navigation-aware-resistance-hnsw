@@ -2,6 +2,13 @@
 
 This log tracks the public artifact and repository presentation. It does not imply new scientific runs when only documentation changes.
 
+## `artifact-manuscript-v7` — 2026-11-08
+
+- Published the current three-author V7 PDF and Overleaf package with the updated AI-assistance disclosure.
+- Added the protocol cited by Section III to the source package and corrected package documentation; manuscript TeX, bibliography, figures and PDF remain unchanged in this synchronization.
+- Synchronized English/Chinese homepages, V7 citation metadata, five-figure navigation, and the overview preview rendered from the current Figure 1.
+- Bound release assets by SHA-256 and local extracted-source compilation checks. Existing experimental evidence and older release assets remain unchanged; no new scientific runs.
+
 ## `artifact-manuscript-v4` — 2026-10-15
 
 - Bound the reorganized manuscript and supplementary protocol to the unchanged P0–P12 evidence releases.

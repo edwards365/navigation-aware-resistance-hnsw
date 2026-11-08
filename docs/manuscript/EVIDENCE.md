@@ -1,23 +1,21 @@
 # Current manuscript → fixed evidence
 
-**Manuscript binding:** [artifact-manuscript-v4](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4), October 15, 2026.
+**Current manuscript:** [artifact-manuscript-v7](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7). Authors: Lekang Wang, Pinze Ren and Zhen Chen (corresponding author), Tsinghua University.
 
-This release updates the paper's organization, analysis-and-evaluation framework exposition, protocol supplement, and approved overview. It adds no scientific measurements and changes no saved experimental inputs, decisions, statistics, or preceding release assets. The paper has 12 body pages plus one page of AI disclosure and references; this is a measured layout property, not a certification of submission compliance.
+- [V7 PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/artifact-manuscript-v7/ICDE_v7.pdf): 12 body pages plus one page of AI disclosure and references.
+- [V7 Overleaf package](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/artifact-manuscript-v7/ICDE_v7_Overleaf.zip): the exact manuscript sources, bibliography, five figure PDFs, and supplementary protocol.
+- [Supplementary protocol](v7/study_design_protocol.md), [reproduction guide](v7/REPRODUCIBILITY.md), and [version manifest](v7/release-manifest.json).
+- [Current overview](../assets/research-overview.png) is rendered directly from V7 Figure 1. Historical PPTX sources are not the current editable figure source.
 
-## Read or build this version
+V7 updates presentation, author metadata and AI disclosure. It adds no experiments, timing or bootstrap runs. The linked guide maps V7 results to unchanged fixed evidence, distinguishes document compilation from scientific reconstruction, and preserves provenance limits. The manuscript's v4 evidence URL remains valid; its release page links to V7.
 
-- Download `manuscript.pdf` and `manuscript-source.zip` from the release. The ZIP includes all six figure PDFs, bibliography, template, and compilation instructions. Upload its contents to Overleaf and use `main.tex` as the root.
-- `study_design_protocol.md` is the separately readable supplementary protocol, also included in the source ZIP and [here](study_design_protocol.md).
-- `overview.pptx`, `overview.pdf`, and `overview.png` are the approved Figure 1 in editable, vector, and preview formats. Unchanged Figures 2–6 editing sources remain in [artifact-delivery-v1](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-delivery-v1).
-- `release-manifest.json` and `CHECKSUMS.sha256` bind the release files; `verification.json` records the actual packaging checks. `LICENSE`, `LUCIDE_LICENSE`, and `figure_asset_licenses.md` state the license scope. External datasets and third-party software retain their own terms.
-
-## Follow the scientific evidence
+## Fixed scientific evidence
 
 Use the fixed tags below, not a moving `main` branch, when reproducing a result. The linked maps provide the inputs, commands, expected outputs, verification receipts, and remaining provenance gaps.
 
 | Paper content | Fixed evidence entry | Verification boundary |
 |---|---|---|
-| Figures 2 and 4–6: transfer, deployed operating points, costs, answer lookup | [Original paper evidence map](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-delivery-v1/artifact/EVIDENCE.md); [paper statistics](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-paper-v2/artifact/paper/README.md) | Saved-record aggregation and stated bootstrap routes, not new search/timing measurements |
+| Figures 2, 4–5 and Section VI: transfer, deployed operating points, costs, answer lookup | [Original paper evidence map](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-delivery-v1/artifact/EVIDENCE.md); [paper statistics](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-paper-v2/artifact/paper/README.md) | Saved-record aggregation and stated bootstrap routes, not new search/timing measurements |
 | Figure 3: common-set summary cost and coverage | [Nine-table reconstruction](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-response-v1/artifact/RUNBOOK.md) | Saved-response analysis with declared numerical tolerances |
 | Sections IV–V: construction conditions, cost decompositions, finite-support learning, qualification, boundary ties (P0–P11) | [Unified P0–P11 map](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-deepening-v2/artifact/deepening/EVIDENCE.md); [runbook](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-deepening-v2/artifact/deepening/README.md) | Fixed claims and saved-response reconstruction; actual fresh-environment receipts specify the checks |
 | SIFT1M boundary-tie supplement (P12) | [P0–P12 map](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-deepening-v3/artifact/p12/EVIDENCE.md); [P12 runbook](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-deepening-v3/artifact/p12/README.md) | Fresh-environment Windows distance, scoring, and objective checks on saved material |
@@ -25,8 +23,7 @@ Use the fixed tags below, not a moving `main` branch, when reproducing a result.
 
 Theoretical optima use known target responses and do not supply a deployable decision rule. Deployment comparisons retain their own query roles, quality events, and actual risks. The History-Max acquisition ledger is not assigned to newly learned policies. These distinctions remain in the main paper.
 
-## What v4 checks, and what it does not
 
-The extracted source ZIP was compiled locally with Tectonic 0.17.0; every page's extracted text and size matched the delivered PDF. References, citations, figure identities, embedded fonts, and internal link destinations were checked. The bilingual section sources were checked for structural consistency. The current checks do not rerun ANN search, exact search, timing, bootstrap, or P0–P12 analyses, and do not replace the independently implemented scientific checks in the preceding releases.
+## Version history
 
-Older releases retain their original paper snapshots. They are not silently replaced by this paper. `release-manifest.json` records the predecessor tag/asset identities observed when preparing v4.
+Older manuscript snapshots, tags and assets remain unchanged. See [V5](v5/README.md), [V4 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4), and the [changelog](../../CHANGELOG.md). For V7 use the explicitly named release assets rather than the automatic GitHub source archive.

@@ -1,0 +1,70 @@
+{
+  "version": "artifact-manuscript-v7",
+  "manuscript": "V7",
+  "date": "2026-11-08",
+  "predecessor": "artifact-manuscript-v5",
+  "authors": [
+    {
+      "name": "Lekang Wang",
+      "affiliation": "Tsinghua University"
+    },
+    {
+      "name": "Pinze Ren",
+      "affiliation": "Tsinghua University"
+    },
+    {
+      "name": "Zhen Chen",
+      "affiliation": "Tsinghua University",
+      "corresponding": true
+    }
+  ],
+  "pdf_pages": 13,
+  "body_pages": 12,
+  "figure_count": 5,
+  "science_rerun": false,
+  "pdf_changed_during_sync": false,
+  "package_changes": [
+    "README_OVERLEAF.md refreshed",
+    "study_design_protocol.md included"
+  ],
+  "fixed_evidence": [
+    "artifact-manuscript-v4",
+    "artifact-deepening-v3",
+    "artifact-deepening-v2",
+    "artifact-delivery-v1"
+  ],
+  "assets": {
+    "figure_asset_licenses.md": {
+      "sha256": "8183a47dad8e009abf5fd55822e426e98f195dbbddd6591e7b3cde6c97e0d897",
+      "bytes": 934
+    },
+    "ICDE_v7.pdf": {
+      "sha256": "db1c7ec158301fb2ad5ab0ddf821168e31056a03e74582eb519ed0f985305782",
+      "bytes": 1699414
+    },
+    "ICDE_v7_Overleaf.zip": {
+      "sha256": "6d3ee30654311064f0472c3996180fc8d408f4f981759adfff964832a04a3c4a",
+      "bytes": 1673118
+    },
+    "LICENSE": {
+      "sha256": "177c82662cb9dec6d9af9dd48822674337be9bab9c5d294a81ef01c073754929",
+      "bytes": 1068
+    },
+    "LUCIDE_LICENSE": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    "REPRODUCIBILITY.md": {
+      "sha256": "b1bdd72be4f3bc6ece5cf5966ae7d972cb7f80f4e4fec95c24a4351fd9469860",
+      "bytes": 4410
+    },
+    "study_design_protocol.md": {
+      "sha256": "5097da87ed17e84aac35733fe569af9fc08a990b3dc53b880af4bf852e4cd1dd",
+      "bytes": 25996
+    },
+    "verification.json": {
+      "sha256": "04c9b5e4ae33035d97e105617104699c56be10f3141d67dc5640a3d25ea878c0",
+      "bytes": 662
+    }
+  }
+}
