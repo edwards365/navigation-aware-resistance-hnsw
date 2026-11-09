@@ -1,13 +1,13 @@
 # Current manuscript → fixed evidence
 
-**Current manuscript:** [artifact-manuscript-v7](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7). Authors: Lekang Wang, Pinze Ren and Zhen Chen (corresponding author), Tsinghua University.
+**Current manuscript:** [submission-final-20261109](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261109). Authors: Lekang Wang, Pinze Ren and Zhen Chen (corresponding author), Tsinghua University.
 
-- [V7 PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/artifact-manuscript-v7/ICDE_v7.pdf): 12 body pages plus one page of AI disclosure and references.
-- [V7 Overleaf package](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/artifact-manuscript-v7/ICDE_v7_Overleaf.zip): the exact manuscript sources, bibliography, five figure PDFs, and supplementary protocol.
-- [Supplementary protocol](v7/study_design_protocol.md), [reproduction guide](v7/REPRODUCIBILITY.md), and [version manifest](v7/release-manifest.json).
-- [Current overview](../assets/research-overview.png) is rendered directly from V7 Figure 1. Historical PPTX sources are not the current editable figure source.
+- [final manuscript PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261109/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf): 12 body pages plus one page of AI disclosure and references.
+- [final manuscript Overleaf package](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261109/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile_Overleaf.zip): the exact manuscript sources, bibliography, five figure PDFs, and supplementary protocol.
+- [Supplementary protocol](final/study_design_protocol.md), [reproduction guide](final/REPRODUCIBILITY.md), and [version manifest](final/release-manifest.json).
+- [Current overview](../assets/research-overview.png) is rendered directly from final manuscript Figure 1. Historical PPTX sources are not the current editable figure source.
 
-V7 updates presentation, author metadata and AI disclosure. It adds no experiments, timing or bootstrap runs. The linked guide maps V7 results to unchanged fixed evidence, distinguishes document compilation from scientific reconstruction, and preserves provenance limits. The manuscript's v4 evidence URL remains valid; its release page links to V7.
+final manuscript updates presentation, author metadata and AI disclosure. It adds no experiments, timing or bootstrap runs. The linked guide maps final manuscript results to unchanged fixed evidence, distinguishes document compilation from scientific reconstruction, and preserves provenance limits. The manuscript's v4 evidence URL remains valid; its release page links to final manuscript.
 
 ## Fixed scientific evidence
 
@@ -26,4 +26,4 @@ Theoretical optima use known target responses and do not supply a deployable dec
 
 ## Version history
 
-Older manuscript snapshots, tags and assets remain unchanged. See [V5](v5/README.md), [V4 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4), and the [changelog](../../CHANGELOG.md). For V7 use the explicitly named release assets rather than the automatic GitHub source archive.
+Older manuscript snapshots, tags and assets remain unchanged. See [V5](v5/README.md), [V4 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v4), and the [changelog](../../CHANGELOG.md). For final manuscript use the explicitly named release assets rather than the automatic GitHub source archive.

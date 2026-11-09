@@ -1,0 +1,51 @@
+{
+  "title": "When Is Cross-Index Search Budget Reuse Worthwhile?",
+  "release": "submission-final-20261109",
+  "date": "2026-11-09",
+  "pdf_pages": 13,
+  "body_pages": 12,
+  "figure_count": 5,
+  "authors": [
+    "Lekang Wang",
+    "Pinze Ren",
+    "Zhen Chen"
+  ],
+  "corresponding_author": "Zhen Chen",
+  "affiliation": "Tsinghua University",
+  "evidence": [
+    "artifact-paper-v2",
+    "artifact-response-v1",
+    "artifact-deepening-v2",
+    "artifact-deepening-v3"
+  ],
+  "files": {
+    "figure_asset_licenses.md": {
+      "sha256": "8183a47dad8e009abf5fd55822e426e98f195dbbddd6591e7b3cde6c97e0d897",
+      "bytes": 934
+    },
+    "LICENSE": {
+      "sha256": "177c82662cb9dec6d9af9dd48822674337be9bab9c5d294a81ef01c073754929",
+      "bytes": 1068
+    },
+    "LUCIDE_LICENSE": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    "REPRODUCIBILITY.md": {
+      "sha256": "eebeaaea08488c475df0c58cb5f764b55247c52c36002b3aeaef3be96a17468f",
+      "bytes": 4416
+    },
+    "study_design_protocol.md": {
+      "sha256": "5097da87ed17e84aac35733fe569af9fc08a990b3dc53b880af4bf852e4cd1dd",
+      "bytes": 25996
+    },
+    "When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf": {
+      "sha256": "3bd7ec03ec46b945a81a5a3892820e24308e23ee0a117b1efc59dfda6f9ec33e",
+      "bytes": 1699219
+    },
+    "When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile_Overleaf.zip": {
+      "sha256": "33b6d7b6664f2ecd7ae6eaf741e4d2b2f19f062de3b90c031b58bc804828bd71",
+      "bytes": 1672347
+    }
+  }
+}

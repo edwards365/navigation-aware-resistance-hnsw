@@ -1,126 +1,32 @@
-> Current manuscript: [artifact-manuscript-v7](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7) — three-author V7 PDF, Overleaf source and supplementary protocol. Older fixed evidence remains available.
-
-<div align="center">
-
 # When Is Cross-Index Search Budget Reuse Worthwhile?
 
-**Information limits · Quality recovery · Conditional reuse costs**
+An experimental and analytical study of search-budget reuse across ANN indexes.
 
-An experimental and analytical study of historical search-budget reuse across ANN indexes.
+**Lekang Wang, Pinze Ren, Zhen Chen** · Tsinghua University
 
-[![Artifact checks](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/actions/workflows/artifact.yml/badge.svg?branch=main)](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/actions/workflows/artifact.yml)
-[![Current manuscript release](https://img.shields.io/badge/release-artifact--manuscript--v7-087F99)](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7)
-[![MIT license](https://img.shields.io/badge/license-MIT-64748B)](LICENSE)
+[Paper PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261109/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf) · [Overleaf source](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261109/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile_Overleaf.zip) · [Final submission materials](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261109) · [中文](README.zh-CN.md)
 
-[Overview](#research-overview) · [Quick start](#quick-start) · [Artifact](artifact/README.md) · [Runbook](artifact/RUNBOOK.md) · [中文](README.zh-CN.md)
+![Research overview](docs/assets/research-overview.png)
 
-</div>
+## Research
 
-## Research overview
+We study which budget choices historical information supports after an ANN index is rebuilt, how learned and qualified policies perform, and whether search savings offset information acquisition costs. The paper combines finite-budget analysis with 100K and million-vector experiments, deployment comparisons, and conditional cost accounting.
 
-**Rebuilding an index can change the budget a query needs—even when its exact answer does not change.** We study what historical information can support, how target-side evidence changes deployment, and when reuse is worth its acquisition cost.
+## Reproduce the results
 
-[![Research overview: information limits, quality recovery, and conditional value](docs/assets/research-overview.png)](docs/assets/research-overview.png)
+Start with the [manuscript-to-evidence map](docs/manuscript/EVIDENCE.md), [supplementary protocol](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261109/study_design_protocol.md), and [reproduction guide](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261109/REPRODUCIBILITY.md).
 
-*V7 Figure 1: three complementary evaluation perspectives. Click the figure to enlarge; see the [figure guide](docs/OVERVIEW.md) for its scope and notation.*
-
-| Research question | What the study examines | Explore the evidence |
-|---|---|---|
-| **What can history distinguish?** | Common safe actions, summary compression, and additional order restrictions | [Same-target summary diagnostics](artifact/data/summary_information_bridge/) |
-| **What does target evidence change?** | Candidate qualification, locked fallback, and target-calibrated fixed budgets | [Operating points and paired comparisons](artifact/EVIDENCE.md) |
-| **When is reuse worth its cost?** | Acquisition, sharing, repeated service, and valid-answer reuse | [Cost ledgers and conditional boundaries](artifact/EVIDENCE.md) |
-
-The study includes 100K and roughly million-vector panels. These panels differ in more than scale; they are not a controlled measurement of scale alone. Target-informed empirical cost optima are diagnostic references, not deployed policies. Quality recovery and savings against a conservative endpoint do not establish a same-risk cost advantage over simpler alternatives.
-
-## Quick start
-
-### Fixed manuscript and P0–P12 evidence
-
-The current [V7 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7) supplies the three-author manuscript, Overleaf source with five figure PDFs, supplementary protocol, reproduction guide, and file hashes. Start at the [manuscript-to-evidence entry](docs/manuscript/EVIDENCE.md). V7 updates manuscript presentation and authorship; the experimental evidence retains its original fixed releases. Current editable figure sources are not included; older PPTX packages remain historical.
-
-The fixed [artifact-deepening-v3 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-deepening-v3) supplies the SIFT1M tie-sensitivity evidence and its October 12 manuscript snapshot. See the [P12 runbook](artifact/p12/README.md) and [unified P0–P12 evidence map](artifact/p12/EVIDENCE.md). It retains the fixed v2 below as its P0–P11 predecessor.
-
-The fixed [artifact-deepening-v2 release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-deepening-v2) binds the revised manuscript to the added mechanism, construction, learning and boundary-tie analyses. It supplies a 23-claim map, source/input identities, license scope and a single reconstruction command. Start with the [P0–P11 runbook](artifact/deepening/README.md) and [unified evidence entry](artifact/deepening/EVIDENCE.md); the verification receipt reports the actual fresh-environment checks. Earlier release tags below remain fixed for their original panels.
-
-### 1. Check the released results
-
-Use **Python 3.11+**. This check needs only the standard library and writes no outputs.
-
-```sh
-git clone --branch artifact-paper-v2 https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile.git budget-reuse
-cd budget-reuse
-python artifact/check_saved_results.py
-```
-
-The command checks file identity and selected aggregation arithmetic. It does not rerun ANN search or recompute confidence intervals. The tag pins this paper-statistics supplement; the earlier `artifact-response-v1` release remains unchanged.
-
-### 2. Reconstruct nine analysis tables
-
-Download `summary-analysis-inputs.zip` (**9.45 MB**) from the [versioned release](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-response-v1). Follow the [runbook](artifact/RUNBOOK.md) to create an isolated environment with the pinned dependencies, then run:
-
-```sh
-python artifact/reproduce_summary.py --archive summary-analysis-inputs.zip --output reproduction-output
-```
-
-This reconstructs selected summary-cost, qualification-sensitivity, and cost-component tables from saved responses. The recorded portability check used Python 3.12.14, NumPy 1.26.4, and SciPy 1.13.1: **eight tables matched byte-for-byte; one matched within declared numerical tolerances, with decisions unchanged**. See the [verification report](artifact/receipts/portability_verification.json).
-
-## Release scope
-
-### 3. Reconstruct numerical-figure statistics
-
-With the pinned analysis environment, run:
-
-```sh
-python artifact/reproduce_paper.py --output paper-reconstruction
-```
-
-The [paper supplement](artifact/paper/README.md) supplies small saved-record inputs directly in Git. Its clean-export check reconstructs 36 migration/paired intervals, ten operating points, 320 cost-curve points and 80 batch-lookup means. Figure 3 uses the nine-table route above. See the [recorded check](artifact/receipts/paper_reconstruction.json) and the [whole-paper coverage map](artifact/EVIDENCE.md).
-
-### 4. Reconstruct narrative panels
-
-The [narrative runbook](artifact/narrative/README.md) adds 96 original grid CSVs, 100K/Deep1M recovery records, demand labels, refresh arrays and alternative-cost reconstruction. It recomputes ten additional reported intervals and verifies the raw-to-Figure-2-cluster path. Historical native inclusion/measurement records are [separately documented](artifact/native_evidence/README.md).
-
-**`artifact-paper-v2` supplements the immutable `artifact-paper-v1` and `artifact-response-v1` releases. It is saved-record reconstruction, not complete original-experiment reproduction.**
-
-| Material | Public status |
+| Material | Entry |
 |---|---|
-| Fixed P0–P11 manuscript and analyses | [artifact-deepening-v2](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-deepening-v2), [claim/evidence entry](artifact/deepening/EVIDENCE.md), SHA-bound PDF/source and saved-response bundle |
-| Selected result tables, paired intervals, and cost records | Available in [`artifact/`](artifact/README.md) |
-| Saved-response archive and portable nine-table reconstruction | Available in the [release and runbook](artifact/RUNBOOK.md) |
-| Conceptual overview | Available above, in the approved manuscript visual style |
-| Current V7 TeX, PDF and supplementary protocol | [artifact-manuscript-v7](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-manuscript-v7); five figure PDFs, current AI disclosure and three-author metadata |
-| Historical six-figure editable package | [artifact-delivery-v1](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-delivery-v1); historical sources do not reproduce revised V7 figures |
-| Numerical-figure saved-record statistics, including Figure 2/4 intervals | Supplied by the paper supplement |
-| Narrative-panel reconstruction | Runnable saved-record routes for the listed panels; input layers remain explicit |
-| New original-protocol execution entries | [Ten-family execution map](artifact/original_execution/EXECUTION_MAP.md), pinned source/dependencies, phase-separated producers and new receipts; synthetic/native CI is not a full-data rerun |
+| Saved results and analysis commands | [Artifact runbook](artifact/README.md) |
+| Transfer, deployment and cost statistics | [Paper reconstruction](artifact/paper/README.md) |
+| Summary-cost reconstruction | [Saved-response runbook](artifact/RUNBOOK.md) |
+| Mechanism, construction and learning evidence | [P0–P11 evidence](artifact/deepening/EVIDENCE.md) |
+| Million-scale boundary-tie supplement | [P12 evidence](artifact/p12/EVIDENCE.md) |
+| Original-protocol execution instructions | [Execution map](artifact/original_execution/EXECUTION_MAP.md) |
 
-### 5. Prepare a new original-protocol execution
-
-Use the [ten-family execution map](artifact/original_execution/EXECUTION_MAP.md) in the current execution-entry checkout. It links data acquisition, pinned sources, stage commands and bounded controls. The immutable `artifact-paper-v2` checkout above is deliberately the saved-result route; it does not contain later execution-entry additions. Record the exact execution-entry commit separately.
-
-The fixed [`artifact-delivery-v1`](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/artifact-delivery-v1) groups the execution-entry ZIP, six-figure editable package, and the manuscript snapshot at that release. `DELIVERY.json` records their identities and actual verification scope. Earlier saved-response archives retain their original tags and hashes.
-
-New commands require separate output paths and explicit opt-in. Generated-fixture and tiny native checks validate the tested interfaces, not full-data scientific reproduction. Original sealed runs and published measurements are not rerun or overwritten during delivery.
-
-The [coverage table](artifact/README.md#coverage) distinguishes supplied materials from remaining work. Single-index native DARTH/Vamana checks do not substitute for multi-build transfer evidence. No publication acceptance, artifact badge, or complete independent reproduction is claimed.
-
-## Repository guide
-
-```text
-artifact/          Released results, manifests, checks, and analysis runbook
-docs/              Documentation index, overview guide, and historical context
-.github/           Continuous checks and contribution templates
-CITATION.cff       Repository citation metadata
-CONTRIBUTING.md    Contribution and evidence-preservation guidelines
-CHANGELOG.md       Public release and presentation history
-```
-
-Start with the [documentation index](docs/README.md) or [paper-to-evidence map](artifact/EVIDENCE.md). Earlier code under `python/`, `cpp/`, `configs/`, and `scripts/` remains in place; those directories are not all current artifact entry points. The [repository status](artifact/REPOSITORY_STATUS.md) explains the branch reconciliation, and the [historical README](docs/history/README_before_icde_artifact.md) preserves the preceding research agenda.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before changing experiments or frozen evidence. For reproduction problems, [open a reproducibility issue](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/issues/new?template=reproducibility.yml) with the release, environment, command, and sanitized output.
+Use the fixed evidence tags linked in the reproduction guide for scientific reconstruction. Saved-record reconstruction and original search execution have distinct input and verification requirements, described in their runbooks. The source package supplies five figure PDFs; current editable figure sources are outside its scope.
 
 ## Citation and license
 
-Use [CITATION.cff](CITATION.cff) for repository metadata and record the release or commit used. This metadata does not describe an accepted publication. Code and project-generated materials use the existing [MIT license](LICENSE); third-party components retain their licenses, and external vector datasets are not redistributed by this release.
+Repository metadata is available in [CITATION.cff](CITATION.cff). Code and project-generated materials use the [MIT license](LICENSE); third-party assets retain their own licenses. Dataset acquisition instructions are in the artifact runbooks. Historical releases remain available through [Releases](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases).
