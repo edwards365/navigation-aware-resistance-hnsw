@@ -1,6 +1,6 @@
-# final manuscript manuscript and reproduction guide
+# Manuscript and reproduction guide
 
-Fixed manuscript: [submission-final-20261110](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261110). Authors: Lekang Wang, Pinze Ren, Zhen Chen; all affiliated with Tsinghua University. Zhen Chen is the corresponding author. final manuscript is a manuscript/figure presentation and authorship update, not a new experimental release or an accepted-publication claim.
+Fixed manuscript: [submission-ready-20261110](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-ready-20261110). Authors: Lekang Wang, Pinze Ren, Zhen Chen; all affiliated with Tsinghua University. Zhen Chen is the corresponding author. This release binds the final manuscript to the existing fixed scientific evidence.
 
 ## Read and build
 
@@ -10,14 +10,14 @@ Download `When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf` and `When_Is_C
 
 | Level | Scope |
 |---|---|
-| Document build | Extracted final manuscript source compiled locally and compared with the delivered PDF; see verification.json for actual checks. No online Overleaf/CMT submission. |
+| Document build | The extracted final source was compiled and its page text compared with the delivered PDF; verification.json records this check and the saved-result consistency check. |
 | Saved-record reconstruction | Existing fixed releases supply declared inputs, scripts and expected results. Reconstruction is distinct from acquiring new search or timing measurements. |
 | Independent algorithmic checks | P0–P11 and P12 receipts describe independently implemented checks and their stated environments, not an independent research team. |
 | Original-procedure execution | Staged interfaces and data/dependency instructions are available; they do not establish a complete full-data independent rerun. |
 
-## final manuscript results and fixed evidence
+## Manuscript results and fixed evidence
 
-| final manuscript content | Fixed entry |
+| Manuscript content | Fixed entry |
 |---|---|
 | Fig. 2: transfer; Fig. 4: deployment | [paper-v2 runbook](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-paper-v2/artifact/paper/README.md) and [evidence map](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-paper-v2/artifact/EVIDENCE.md) |
 | Fig. 3: summary constraints and mechanisms | [response-v1 runbook](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-response-v1/artifact/RUNBOOK.md), [P0–P11 map](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-deepening-v2/artifact/deepening/EVIDENCE.md), [P12 map](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/blob/artifact-deepening-v3/artifact/p12/EVIDENCE.md) |

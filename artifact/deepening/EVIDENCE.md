@@ -17,17 +17,17 @@ Use the fixed [artifact-deepening-v2 release](https://github.com/edwards365/when
 | P11: tie cost and relearning, IV-D/V | `p11/config.json`; P4/P5/P8/P10 inputs, all 32 added graphs | Umbrella command; cost/check then learning/check | All 14 files in `p11/expected/`, including objectives, attribution, models, locks, support and fixed scores |
 | Finite theoretical conditions, IV-C | `docs/theory_conditions.md`, `docs/p9_theory.md` | `p0-p10/rebuild_theory.py`; finite examples complement the proofs | `p0-p10/expected/theory` and checked theoretical notes |
 
-Except where `p0-p10/` is written explicitly, `configs/` and `expected/` in P0–P10 rows are relative to that component. The bundle's `docs/claims.csv` supplies exact root-relative paths for the 23 current claims, including unsupported upgrades and unresolved million-scale ties. Native source/header pins describe earlier measurement provenance; the default reconstruction has no native search or compiler step.
+Except where `p0-p10/` is written explicitly, `configs/` and `expected/` in P0–P10 rows are relative to that component. The bundle's `docs/claims.csv` supplies exact root-relative paths for the 23 current claims, including unsupported upgrades and the million-scale tie question as recorded at that snapshot. The subsequent [P12 map](../p12/EVIDENCE.md) supplies the completed million-scale tie analysis. Native source/header pins describe earlier measurement provenance; the default reconstruction has no native search or compiler step.
 
 ## Original paper figures and measurements
 
 | Result | Fixed public path | Connection to current manuscript |
 |---|---|---|
-| Figure 1, six editable figures | `artifact-delivery-v1` figure package | Frozen presentation sources; current six PDF hashes in release manifest |
+| Historical Figure 1 and six editable figures | `artifact-delivery-v1` figure package | Historical presentation sources and six PDF hashes for that release; current five-figure paper is indexed in ../../docs/manuscript/EVIDENCE.md |
 | Figures 2/4, original paired intervals | `artifact-paper-v2`, paper/narrative runbooks | Same original statistical estimands and saved-response layers |
 | Figure 3 original two-dataset optima | `artifact-response-v1`, nine-table reconstruction | Added P0/P1/P11 provide separate attribution and sensitivity records |
 | Figure 5 and Table III ledger | `artifact-paper-v2` plus response-v1 cost records | Original History-Max accounting, not a new learned-policy lifecycle |
-| Figure 6 memory and lookup | `artifact-paper-v2` saved measurement records | Original static lookup path and measurement boundaries |
+| Section VI memory and lookup (historical Figure 6) | `artifact-paper-v2` saved measurement records | Original static lookup path and measurement boundaries |
 | New original-protocol execution | `artifact-delivery-v1` execution-entry package | Source/config/access routes; full-scale repeat execution is separate |
 
 The [previous whole-paper map](../EVIDENCE.md) retains every original result's input layer and remaining measurement boundary. The new release adds the mechanism evidence and a bound manuscript snapshot; it does not turn historical missing provenance into a new measurement.

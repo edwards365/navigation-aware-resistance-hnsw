@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "release": "submission-ready-20261110",
+  "pdf_sha256": "cf0fd808cced71b9ead996056b6b0ac34779170ed6f1e06452cd53844a583539",
+  "source_zip_sha256": "a8d24e36ff1a65e71b3d704aae58c9b3cdbe21d287908c69b969565ac703a5e7",
+  "pdf_pages": 13,
+  "body_pages": 12,
+  "source_archive_integrity": "PASS",
+  "extracted_source_compile_exit": 0,
+  "rebuilt_pdf_page_text_comparison": "PASS all 13 pages",
+  "saved_result_identity_arithmetic_exit": 0,
+  "documentation_relative_links": "PASS in listed entry files",
+  "checked_entry_files": [
+    "README.md",
+    "docs/manuscript/EVIDENCE.md",
+    "artifact/README.md",
+    "artifact/EVIDENCE.md",
+    "artifact/deepening/README.md",
+    "artifact/deepening/EVIDENCE.md",
+    "artifact/p12/README.md",
+    "artifact/original_execution/EXECUTION_MAP.md"
+  ],
+  "scientific_experiments_rerun": false,
+  "current_editable_figure_sources_supplied": false
+}

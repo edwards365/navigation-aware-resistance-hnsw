@@ -1,6 +1,6 @@
 {
   "title": "When Is Cross-Index Search Budget Reuse Worthwhile?",
-  "release": "submission-final-20261110",
+  "release": "submission-ready-20261110",
   "date": "2026-11-10",
   "pdf_pages": 13,
   "body_pages": 12,
@@ -32,12 +32,16 @@
       "bytes": 3208
     },
     "REPRODUCIBILITY.md": {
-      "sha256": "20105172e964471ab4eca831e73f759e036927a691fd7b33a596b51b361b207a",
-      "bytes": 4416
+      "sha256": "4b006bdb9063501c8ea82a51138e434d0efd70e89ac8c30b6833ffd544b35fdf",
+      "bytes": 4333
     },
     "study_design_protocol.md": {
       "sha256": "5097da87ed17e84aac35733fe569af9fc08a990b3dc53b880af4bf852e4cd1dd",
       "bytes": 25996
+    },
+    "verification.json": {
+      "sha256": "9eb9b6b487b6a5c4c0fde8dd0c9525a6d0181bb831b7cdc17f3aef90c144231d",
+      "bytes": 940
     },
     "When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf": {
       "sha256": "cf0fd808cced71b9ead996056b6b0ac34779170ed6f1e06452cd53844a583539",

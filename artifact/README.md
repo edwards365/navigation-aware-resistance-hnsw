@@ -1,4 +1,4 @@
-> Current manuscript: [final manuscript PDF, Overleaf source and protocol](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261109). Fixed experimental evidence below retains its original versions; see the [final manuscript evidence guide](../docs/manuscript/EVIDENCE.md).
+> Current manuscript: [final manuscript PDF, Overleaf source and protocol](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-ready-20261110). Fixed experimental evidence below retains its original versions; see the [final manuscript evidence guide](../docs/manuscript/EVIDENCE.md).
 
 # Artifact: cross-index search budget reuse
 
@@ -16,7 +16,7 @@ The [P0–P11 additive release](deepening/README.md) is the current manuscript's
 |---|---|---|
 | Inspect the saved results | `python artifact/check_saved_results.py` from the repository root | File identity and selected arithmetic |
 | Reconstruct nine analysis tables | [Pinned environment and commands](RUNBOOK.md) | Selected derived results from saved responses |
-| Reconstruct Figures 2, 4, 5 and 6 | [Paper reconstruction commands](paper/README.md) | Migration and paired intervals, cost curves and batch lookup means from pinned saved records |
+| Reconstruct Figures 2, 4–5 and Section VI answer-lookup results | [Paper reconstruction commands](paper/README.md) | Migration and paired intervals, cost curves and batch lookup means from pinned saved records |
 | Reconstruct narrative panels and Figure 2 raw-to-cluster extraction | [Narrative commands](narrative/README.md) | Finite labels, recovery, demand mixing, refresh intervals and alternative-cost arithmetic |
 | Find evidence behind a claim | [Evidence map](EVIDENCE.md) | File roles, terminology, and interpretation boundaries |
 | Prepare new original-protocol measurements | [Ten-family execution map](original_execution/EXECUTION_MAP.md) | Phase-specific input/build/search/decision/timing and cost bridges, with pins and new receipt validation |
@@ -28,7 +28,7 @@ The [P0–P11 additive release](deepening/README.md) is the current manuscript's
 |---|---|---|
 | Saved-result inspection | Per-target mechanism/qualification CSVs, operating points and paired intervals, cost ledger, cache measurements, checksum manifest, standard-library checker | Review the complete paper-to-evidence coverage, not just this selected subset |
 | Recompute saved-record analyses | Nine-table route, numerical-figure inputs, and narrative/raw-grid archives | New response-generation entries are separate below; saved zero-cost diagnostic uses action identity, not new NDC measurement |
-| Rebuild paper figures and PDF | Current Overleaf source/PDF and six editable PPT figures, active CSV inputs, generators and export scripts in the fixed delivery release | PDF/figure rebuilding uses the stated TeX/Office environments; author information remains deferred. Display reconstruction is separate from statistical reconstruction |
+| Rebuild paper figures and PDF | Current five-figure PDF/source package at the final manuscript entry; historical six-figure PPT package at artifact-delivery-v1 | The current manuscript lists all three authors. Historical editable sources reproduce their own release; current figure PDFs are in the Overleaf package |
 | Original-protocol execution entries | [Ten-family map](original_execution/EXECUTION_MAP.md), pinned source/config/dependencies, phase-separated new-output entries and bounded controls | Users must obtain permitted datasets, meet each pinned platform/resource contract and run the desired phases; no full-data rerun is asserted from synthetic CI |
 
 ## Verify the supplied snapshot
