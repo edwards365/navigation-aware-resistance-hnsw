@@ -1,6 +1,6 @@
 # final manuscript manuscript and reproduction guide
 
-Fixed manuscript: [submission-final-20261109](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261109). Authors: Lekang Wang, Pinze Ren, Zhen Chen; all affiliated with Tsinghua University. Zhen Chen is the corresponding author. final manuscript is a manuscript/figure presentation and authorship update, not a new experimental release or an accepted-publication claim.
+Fixed manuscript: [submission-final-20261110](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261110). Authors: Lekang Wang, Pinze Ren, Zhen Chen; all affiliated with Tsinghua University. Zhen Chen is the corresponding author. final manuscript is a manuscript/figure presentation and authorship update, not a new experimental release or an accepted-publication claim.
 
 ## Read and build
 
