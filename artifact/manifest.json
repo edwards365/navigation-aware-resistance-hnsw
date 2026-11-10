@@ -214,8 +214,8 @@
       "sha256": "84ac3a7245a1757cecb4cd6026b3fa89ba4265247b71247368bdc39ba057456a"
     },
     "README.md": {
-      "bytes": 7743,
-      "sha256": "73673903858c2395955808f30e1d7ef087090e487567a6501a376ba672c2b688"
+      "sha256": "ec831c3b272818ae38a9bfb776a5b39409e1e2b496f5d3fa8f0c6c260445ab84",
+      "bytes": 7731
     },
     "receipts/analysis_check.json": {
       "bytes": 375,

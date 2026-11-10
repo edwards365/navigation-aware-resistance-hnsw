@@ -10,7 +10,7 @@
 
 
 
-[论文 PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261110-ai/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf) · [Overleaf 代码包](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261110-ai/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile_Overleaf.zip) · [最终投稿材料](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261110-ai) · [English](README.md)
+[论文 PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf) · [Overleaf 代码包](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile_Overleaf.zip) · [最终投稿材料](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final) · [English](README.md)
 
 
 
@@ -22,7 +22,7 @@
 
 
 
-复现从[统一证据入口](docs/manuscript/EVIDENCE.md)、[配套协议](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261110-ai/study_design_protocol.md)和[复现说明](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261110-ai/REPRODUCIBILITY.md)开始。保存记录重建与原始搜索执行各自的输入、命令和验证范围见对应运行说明。历史固定证据及校验值可在[发行页](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases)查询。
+复现从[统一证据入口](docs/manuscript/EVIDENCE.md)、[配套协议](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final/study_design_protocol.md)和[复现说明](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final/REPRODUCIBILITY.md)开始。保存记录重建与原始搜索执行各自的输入、命令和验证范围见对应运行说明。历史固定证据及校验值可在[发行页](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases)查询。
 
 
 
