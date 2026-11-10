@@ -2,13 +2,13 @@
 
 
 
-**Current manuscript:** [submission-ready-20261110](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-ready-20261110). Authors: Lekang Wang, Pinze Ren and Zhen Chen (corresponding author), Tsinghua University.
+**Current manuscript:** [submission-final-20261110-ai](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/tag/submission-final-20261110-ai). Authors: Lekang Wang, Pinze Ren and Zhen Chen (corresponding author), Tsinghua University.
 
 
 
-- [final manuscript PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-ready-20261110/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf): 12 body pages plus one page of AI disclosure and references.
+- [final manuscript PDF](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261110-ai/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile.pdf): 12 body pages plus one page of AI disclosure and references.
 
-- [final manuscript Overleaf package](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-ready-20261110/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile_Overleaf.zip): the exact manuscript sources, bibliography, five figure PDFs, and supplementary protocol.
+- [final manuscript Overleaf package](https://github.com/edwards365/when-is-cross-index-search-budget-reuse-worthwhile/releases/download/submission-final-20261110-ai/When_Is_Cross_Index_Search_Budget_Reuse_Worthwhile_Overleaf.zip): the exact manuscript sources, bibliography, five figure PDFs, and supplementary protocol.
 
 - [Supplementary protocol](final/study_design_protocol.md), [reproduction guide](final/REPRODUCIBILITY.md), and [version manifest](final/release-manifest.json).
 

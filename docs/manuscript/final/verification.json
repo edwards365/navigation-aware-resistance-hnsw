@@ -1,8 +1,8 @@
 {
   "date": "2026-11-10",
-  "release": "submission-ready-20261110",
-  "pdf_sha256": "cf0fd808cced71b9ead996056b6b0ac34779170ed6f1e06452cd53844a583539",
-  "source_zip_sha256": "a8d24e36ff1a65e71b3d704aae58c9b3cdbe21d287908c69b969565ac703a5e7",
+  "release": "submission-final-20261110-ai",
+  "pdf_sha256": "e4445b9ceec4d48f28aa013e36e481f22ee9403115d7c51b8b4abd08d05987d2",
+  "source_zip_sha256": "56355a9b2f394865e9850b723ef8bf8cab3214e2be6732d8b02f3fcc89966fbf",
   "pdf_pages": 13,
   "body_pages": 12,
   "source_archive_integrity": "PASS",
@@ -21,5 +21,9 @@
     "artifact/original_execution/EXECUTION_MAP.md"
   ],
   "scientific_experiments_rerun": false,
-  "current_editable_figure_sources_supplied": false
+  "current_editable_figure_sources_supplied": false,
+  "ai_statement_system_names": [
+    "GPT",
+    "Claude"
+  ]
 }
